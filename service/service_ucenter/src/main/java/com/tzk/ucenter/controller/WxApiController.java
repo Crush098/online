@@ -137,7 +137,7 @@ public class WxApiController {
                 baseUrl,
                 ConstantWxUtils.WX_OPEN_APP_ID,
                 redirectUrl,
-                "atguigu");
+                "tzk");
 
         return "redirect:" + qrcodeUrl;
     }
